@@ -24,7 +24,7 @@ class MenuComponent extends Component {
                   description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'                        },
                {
                   id: 2,
-                  name:'Vadonut',
+                  name:'Vadonuts special southindian',
                   image: 'assets/images/vadonut.png',
                   category: 'appetizer',
                   label:'New',
@@ -62,7 +62,7 @@ class MenuComponent extends Component {
         return (
             <div className="container">
                 <div className="row">
-                 <Media>
+                 <Media list>
                      {menu}
                  </Media>
                 </div>
